@@ -1,0 +1,168 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Admin\assets\demo\chart-area-demo.js" />
+    <None Include="wwwroot\Admin\assets\demo\chart-bar-demo.js" />
+    <None Include="wwwroot\Admin\assets\demo\chart-pie-demo.js" />
+    <None Include="wwwroot\Admin\assets\demo\datatables-demo.js" />
+    <None Include="wwwroot\Admin\assets\img\error-404-monochrome.svg" />
+    <None Include="wwwroot\Admin\js\datatables-simple-demo.js" />
+    <None Include="wwwroot\Admin\js\scripts.js" />
+    <None Include="wwwroot\fontawesome\attribution.js" />
+    <None Include="wwwroot\fontawesome\webfonts\fa-brands-400.svg" />
+    <None Include="wwwroot\fontawesome\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\fontawesome\webfonts\fa-regular-400.svg" />
+    <None Include="wwwroot\fontawesome\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\fontawesome\webfonts\fa-solid-900.svg" />
+    <None Include="wwwroot\fontawesome\webfonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\img\apple.webp" />
+    <None Include="wwwroot\img\honor.webp" />
+    <None Include="wwwroot\img\img\0124cc45-3a6c.png.webp" />
+    <None Include="wwwroot\img\img\1069898-e1677904352622.png.webp" />
+    <None Include="wwwroot\img\img\123-1232782_smart-phone-electronic-parts-cell-doc-mobile-repairing.webp" />
+    <None Include="wwwroot\img\img\20922c34-8afc-2.png.webp" />
+    <None Include="wwwroot\img\img\21OrLgsDClL-1-2.jpg.webp" />
+    <None Include="wwwroot\img\img\2e7cdc22-5a5f-2.png.webp" />
+    <None Include="wwwroot\img\img\406a512d-e8dd-2.png.webp" />
+    <None Include="wwwroot\img\img\4834825a-7f10-1.png.webp" />
+    <None Include="wwwroot\img\img\738cb1f1-7ddf.png.webp" />
+    <None Include="wwwroot\img\img\apple.webp" />
+    <None Include="wwwroot\img\img\cb96df6e-080f-1.webp" />
+    <None Include="wwwroot\img\img\cfeaabff-69bf-2.png.webp" />
+    <None Include="wwwroot\img\img\fef4e5ae-6507-2.png.webp" />
+    <None Include="wwwroot\img\img\honor.webp" />
+    <None Include="wwwroot\img\img\infinix.webp" />
+    <None Include="wwwroot\img\img\istockphoto-813747034-2048x2048.webp" />
+    <None Include="wwwroot\img\img\lenovo.webp" />
+    <None Include="wwwroot\img\img\main.webp" />
+    <None Include="wwwroot\img\img\nokia.webp" />
+    <None Include="wwwroot\img\img\oppo.webp" />
+    <None Include="wwwroot\img\img\realme.webp" />
+    <None Include="wwwroot\img\img\samsung.webp" />
+    <None Include="wwwroot\img\img\sony.webp" />
+    <None Include="wwwroot\img\img\vivo.webp" />
+    <None Include="wwwroot\img\img\xiumu.webp" />
+    <None Include="wwwroot\img\img_infinix\Hot-10.png.webp" />
+    <None Include="wwwroot\img\img_infinix\Hot-10S.png.webp" />
+    <None Include="wwwroot\img\img_infinix\Hot-11s.png.webp" />
+    <None Include="wwwroot\img\img_infinix\Hot-12-Play.png.webp" />
+    <None Include="wwwroot\img\img_infinix\Hot-12-Pro.png.webp" />
+    <None Include="wwwroot\img\img_infinix\Hot-20-5G.png.webp" />
+    <None Include="wwwroot\img\img_infinix\Hot-6-Pro.png.webp" />
+    <None Include="wwwroot\img\img_infinix\Hot-7-Pro.png.webp" />
+    <None Include="wwwroot\img\img_infinix\Hot-8.png.webp" />
+    <None Include="wwwroot\img\img_infinix\Hot-9-Pro.png.webp" />
+    <None Include="wwwroot\img\img_infinix\Hot-9.png.webp" />
+    <None Include="wwwroot\img\img_infinix\note-10.png.webp" />
+    <None Include="wwwroot\img\img_infinix\Note-11.png.webp" />
+    <None Include="wwwroot\img\img_infinix\Note-11S.png.webp" />
+    <None Include="wwwroot\img\img_infinix\Note-12-5G.png.webp" />
+    <None Include="wwwroot\img\img_infinix\Note-12-Pro-5G.png.webp" />
+    <None Include="wwwroot\img\img_infinix\Smart-HD-2021.png.webp" />
+    <None Include="wwwroot\img\img_nokia\Nokia-3.1-Plus.png.webp" />
+    <None Include="wwwroot\img\img_nokia\Nokia-3.1.png.webp" />
+    <None Include="wwwroot\img\img_nokia\Nokia-5.1-Plus.png.webp" />
+    <None Include="wwwroot\img\img_nokia\Nokia-5.3.png.webp" />
+    <None Include="wwwroot\img\img_nokia\Nokia-5.4.png.webp" />
+    <None Include="wwwroot\img\img_nokia\Nokia-5.png.webp" />
+    <None Include="wwwroot\img\img_nokia\Nokia-6.1-Plus.png.webp" />
+    <None Include="wwwroot\img\img_nokia\Nokia-6.1.png.webp" />
+    <None Include="wwwroot\img\img_nokia\Nokia-7-Plus.png.webp" />
+    <None Include="wwwroot\img\img_nokia\Nokia-7.1.png.webp" />
+    <None Include="wwwroot\img\img_nokia\Nokia-7.2.png.webp" />
+    <None Include="wwwroot\img\img_nokia\Nokia-8.1.png.webp" />
+    <None Include="wwwroot\img\img_nokia\Nokia-8.png.webp" />
+    <None Include="wwwroot\img\img_realme\GT-5G.png.webp" />
+    <None Include="wwwroot\img\img_realme\Narzo-20.png.webp" />
+    <None Include="wwwroot\img\img_realme\Realme-2-Pro.png.webp" />
+    <None Include="wwwroot\img\img_realme\Realme-3-Pro.png.webp" />
+    <None Include="wwwroot\img\img_realme\Realme-3.png.webp" />
+    <None Include="wwwroot\img\img_realme\Realme-5-Pro.png.webp" />
+    <None Include="wwwroot\img\img_realme\Realme-5i.png.webp" />
+    <None Include="wwwroot\img\img_realme\Realme-6.png.webp" />
+    <None Include="wwwroot\img\img_realme\Realme-7-Pro.png.webp" />
+    <None Include="wwwroot\img\img_realme\Realme-7.png.webp" />
+    <None Include="wwwroot\img\img_realme\Realme-8.png.webp" />
+    <None Include="wwwroot\img\img_realme\Realme-C2.png.webp" />
+    <None Include="wwwroot\img\img_realme\Realme-C25.png.webp" />
+    <None Include="wwwroot\img\img_realme\Realme-C3.png.webp" />
+    <None Include="wwwroot\img\img_realme\Realme-X.png.webp" />
+    <None Include="wwwroot\img\img_realme\Realme-X2-Pro.png.webp" />
+    <None Include="wwwroot\img\img_realme\Realme-X7-Max-5G.png.webp" />
+    <None Include="wwwroot\img\img_realme\Realme-XT.png.webp" />
+    <None Include="wwwroot\img\infinix.webp" />
+    <None Include="wwwroot\img\lenovo.webp" />
+    <None Include="wwwroot\img\main.webp" />
+    <None Include="wwwroot\img\nokia.webp" />
+    <None Include="wwwroot\img\oppo.webp" />
+    <None Include="wwwroot\img\realme.webp" />
+    <None Include="wwwroot\img\samsung.webp" />
+    <None Include="wwwroot\img\sony.webp" />
+    <None Include="wwwroot\img\vivo.webp" />
+    <None Include="wwwroot\img\xiumu.webp" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="3.0.50813.1" />
+    <PackageReference Include="Microsoft.AspNet.SessionState.SqlSessionStateProviderAsync" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.11" />
+  </ItemGroup>
+
+</Project>
