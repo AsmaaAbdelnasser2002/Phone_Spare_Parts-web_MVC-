@@ -39,7 +39,7 @@ namespace WebApplication6.Controllers
             }
             if (!String.IsNullOrEmpty(Search))
             {
-                var search = model.Where(n => n.CName.Contains(Search)).ToList();
+                var search = model.Where(n => n.CName.ToLower().Contains(Search.ToLower())).ToList();
                 return View(search);
             }
             else
