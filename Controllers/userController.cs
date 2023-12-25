@@ -74,7 +74,7 @@ namespace WebApplication6.Controllers
             var obj = db.Users.Where(a => a.EMail.Equals(us.EMail) && a.Pass.Equals(pass_hash.Hashpassword(us.Pass))).FirstOrDefault();
             if (obj != null)
             {
-                if (us.EMail == "Admin2@gmail.com")
+                if (us.EMail.ToLower() == "admin2@gmail.com")
                 {
                     return RedirectToAction("Index", "AdminSpare");
                 }
