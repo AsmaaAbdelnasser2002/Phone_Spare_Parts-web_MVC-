@@ -31,7 +31,7 @@ namespace WebApplication6.Controllers
         {
             if (!String.IsNullOrEmpty(Search))
             {
-                var search = _context.Brands.Where(n => n.BName.Contains(Search)).ToList();
+                var search = _context.Brands.Where(n => n.BName.ToLower().Contains(Search.ToLower())).ToList();
                 return View(search);
             }
             else
