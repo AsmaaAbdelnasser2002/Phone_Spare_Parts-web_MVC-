@@ -21,7 +21,15 @@ namespace WebApplication6.Controllers
         // GET: Brands
         public async Task<IActionResult> Index()
         {
-           
+            Response.Headers.Add("Cache-Control", "no-cache,no-store,must-revalidate");
+             Response.Headers.Add("Pragma", "no-cache");
+
+             var name = HttpContext.Session.GetString("Email");
+             if (System.String.IsNullOrEmpty(name))
+             {
+                  var returnUrl = Request.Path.Value;
+                   return RedirectToAction("Login", "user");
+             }
                 return _context.Brands != null ?
                             View(await _context.Brands.ToListAsync()) :
                             Problem("Entity set 'PhoneSparePartsContext.Brands'  is null.");
