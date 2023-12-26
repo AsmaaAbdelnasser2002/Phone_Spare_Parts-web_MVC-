@@ -22,15 +22,6 @@ namespace WebApplication6.Controllers
 
         public async Task<IActionResult> Index()
         {
-             Response.Headers.Add("Cache-Control", "no-cache,no-store,must-revalidate");
-             Response.Headers.Add("Pragma", "no-cache");
-
-             var name = HttpContext.Session.GetString("Email");
-             if (System.String.IsNullOrEmpty(name))
-             {
-                  var returnUrl = Request.Path.Value;
-                   return RedirectToAction("Login", "user");
-             }
             var phoneSparePartsContext = _context.Payments.Include(p => p.OIdNavigation).Include(p => p.OIdNavigation.SIdNavigation)
                 .Include(p => p.OIdNavigation.SIdNavigation.CIdNavigation).Include(p => p.OIdNavigation.UIdNavigation);
             return View(await phoneSparePartsContext.ToListAsync());
